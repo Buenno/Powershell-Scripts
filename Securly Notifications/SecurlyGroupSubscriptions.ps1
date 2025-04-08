@@ -1,8 +1,7 @@
 <#
 .SYNOPSIS
-    Disables Securly Notifications
-.DESCRIPTION
-    Disables Securly notifications by disabling group email notifications
+    Enables or disables group notifications for Securly alert group members.
+    ./SecurlyGroupSubscription.ps1 -DeliverySetting NONE
     
 .NOTES
     Author: Toby Williams
@@ -19,6 +18,7 @@ Param
     [string]$DeliverySetting
 )
 #requires -Modules Send-MailKitMessage
+Import-Module PSGSuite
 
 $ErrorActionPreference = 'Stop'
 function Get-HTMLBody {
@@ -39,7 +39,8 @@ function Write-Log {
     [Parameter(Mandatory=$true)]
     [string]$Message
     )
-    $logPath = "$PSScriptRoot\logs\securly_group_update.log"
+    $fileDate = Get-Date -Format "yyyy-MM-dd"
+    $logPath = "$PSScriptRoot\logs\securly_group_update_$fileDate.log"
     $timestamp =  Get-Date -Format "yyyy-MM-dd HH:mm:ss"
     $logEntry = "$timestamp - $Message"
     Add-Content -Path $LogPath -Value $logEntry -Force
@@ -59,8 +60,10 @@ function Remove-Logs {
 # Import-Clixml "$PSScriptRoot\credentials\credentials.xml" 
 # [System.Management.Automation.PSCredential]::new("USERNAME", (ConvertTo-SecureString -String "PASSWORD" -AsPlainText -Force))
 
-$fromAddress = [MimeKit.MailboxAddress]("")
+$fromAddress = [MimeKit.MailboxAddress]("svc_securlygrpupdate@theabbey.co.uk")
 $fromAddress.Name = "Securly Automations"
+#$BCCList = [MimeKit.InternetAddressList]::new();
+#$BCCList.Add([MimeKit.InternetAddress]"williamsto+securly@theabbey.co.uk");
 
 # Import Credentials
 try {
@@ -77,11 +80,12 @@ $mailParams = @{
     "Credential" = $creds
     "UseSecureConnectionIfAvailable" = $true
     "From" = $fromAddress
+    "BCCList" = $BCCList
 }
 
 $ErrMailParams = $mailParams.Clone()
 $RecipientErr = [MimeKit.InternetAddressList]::new()
-$RecipientErr.Add([MimeKit.InternetAddress](""))
+$RecipientErr.Add([MimeKit.InternetAddress]("williamsto+error@theabbey.co.uk"))
 $ErrMailParams.Add("RecipientList", $RecipientErr)
 
 # Create log dir if not exist
@@ -99,7 +103,7 @@ try {
     Write-Log -Message "The following groups were returned: $($groups.Name)"
 }
 catch {
-    Write-Log -Message "An error was encountered when attempting to get group information - $($_.Exception.InnerException.Error.Message)"
+    Write-Log -Message "An error was encountered when attempting to get group information - $($_.Exception.InnerException.Message)"
     throw
 }
 
@@ -155,4 +159,5 @@ foreach ($group in $groups){
         Write-Log -Message "No members found"
     }
 }
+Write-Log -Message "Process complete"
 Remove-Logs
