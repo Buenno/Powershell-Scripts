@@ -13,6 +13,3 @@ function Get-InactiveEndpoint {
             Delete {$Computers_For_Action | Remove-ADComputer -Confirm:$False }
         }
     }
-    
-    
-    Get-InactiveEndpoint -Days 180 -Action Delete 
