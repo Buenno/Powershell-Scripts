@@ -54,21 +54,25 @@ Function Set-ChromeFlag {
 
     BEGIN {
         $ErrorActionPreference = [System.Management.Automation.ActionPreference]::Stop
+        # Get running Chrome processes
+        $procs = Get-Process -Name "Chrome" -IncludeUserName -ErrorAction SilentlyContinue
     }
 
     PROCESS {
         if ($PSCmdlet.ParameterSetName -eq "Single") {
             $users = @($user)
+            $procs | Where-Object {$_.UserName -like "*$User"} | Stop-Process -Force
         }
         elseif ($PSCmdlet.ParameterSetName -eq "All") {
-            $users = Get-ChildItem -Path "$env:SystemDrive\Users"
+            $users = (Get-ChildItem -Path "$env:SystemDrive\Users").Name
+            $procs | Stop-Process -Force 
         }
-        foreach ($user in $users){
-            $configPath = "C:\Users\$User\AppData\Local\Google\Chrome\User Data\Local State"
+        foreach ($u in $users){
+            $configPath = "C:\Users\$u\AppData\Local\Google\Chrome\User Data\Local State"
 
             # Check if the Local State file exists, if not then create it. 
             if (!(Test-Path -Path $configPath)){
-                $localState = New-Item -ItemType File -Path "C:\Users\$User\AppData\Local\Google\Chrome\User Data\" -Name "Local State" -Force
+                $localState = New-Item -ItemType File -Path "C:\Users\$u\AppData\Local\Google\Chrome\User Data\" -Name "Local State" -Force
                 $defaultContent = @{
                     "browser" = @{
                         "enabled_labs_experiments" = @()
@@ -88,23 +92,23 @@ Function Set-ChromeFlag {
             # Load all flags into a list, this allows us to retain existing and add new.
             $flagList = New-Object System.Collections.Generic.List[System.Object]
             foreach ($flag in $configJSON.browser.enabled_labs_experiments){
-                $flagList.Add($flag)
+                $flagList.Add($flag) | Out-Null
             }
 
             # Check whether the specified flag already exists within the flags element.
             if (($flagMatch = $configJSON.browser.enabled_labs_experiments -like "$($Name)*")){
                 # Found a match, so remove it from the list we created.
-                $flagList.Remove("$flagMatch")
+                $flagList.Remove("$flagMatch") | Out-Null
             }
 
             # Add the new flag to the list.
-            $flagList.Add("$Name@$Value")
+            $flagList.Add("$Name@$Value") | Out-Null
 
             # Replace the flag element with the PSObject with the new list.
             $configJSON.browser.enabled_labs_experiments = $flagList
 
             # Convert the PSObject back into JSON and overwrite original Local State file.
-            $configJSON | ConvertTo-Json -Compress -Depth 10 | Out-File -FilePath $configPath -Force
+            $configJSON | ConvertTo-Json -Compress -Depth 10 | Out-File -FilePath $configPath -Encoding utf8 -Force
         }
     }
 
