@@ -9,18 +9,119 @@
     Version: 1.0
             1.0: Basic Script
 #>
-[CmdletBinding(SupportsShouldProcess=$true)]
-Param
-(
-    [Parameter(Mandatory=$true, 
-                Position=0)]
-    [ValidateSet('ALL_MAIL', 'NONE')]
-    [string]$DeliverySetting
-)
-#requires -Modules Send-MailKitMessage
-Import-Module PSGSuite
+
+#requires -Modules Send-MailKitMessage, PSGSuite, PSParseHTML
 
 $ErrorActionPreference = 'Stop'
+
+Function Get-TermStatus {
+    <#
+    .SYNOPSIS
+        Returns the current term status (In Term, Holiday, Half Term etc.)
+     
+    .NOTES
+        Name: Get-TermStatus
+        Author: Toby Williams
+        Version: 1.0
+        DateCreated: 25/04/2025
+     
+    .EXAMPLE
+        Get-TermStatus
+    #>
+     
+    [CmdletBinding()]
+    param()
+    
+    BEGIN {
+        $ErrorActionPreference = [System.Management.Automation.ActionPreference]::Stop
+    }
+    
+    PROCESS {
+        $url = ""
+        $html = ConvertFrom-HTML -Url $url -Engine AngleSharp
+
+        $termHeadings = $html.GetElementsByTagName("H3") | Where-Object {$_.InnerHTML -like "*Term*"}
+        $events = New-Object System.Collections.Generic.List[PSObject]  
+
+        foreach ($heading in $termHeadings){
+            $termYear = $heading.TextContent.Split(" ")[2]
+            # Parse the unordered list below each heading
+            # Use a switch statement to avoid overdoing it with if/else statements
+            foreach ($row in $heading[0].NextElementSibling.TextContent.Trim("").Split("`n")){
+                switch -Wildcard ($row){
+                    "*Induction Day*"           {$eventType =  "Induction"}
+                    "*Term begins for pupils*"  {$eventType = "In Term"}
+                    "*Term ends*"               {$eventType = "Term End"}
+                    "*Last day of school*"      {$eventType = "Term End"}
+                    "Half Term*"                {$eventType = "Half Term"}
+                    "*Bank Holiday"             {$eventType = "Bank Holiday"}
+                    default                     {$eventType = "Skip"}
+                }
+                # Half term records start and end are on the same row, so these must be split
+                if ($eventType -eq "Half Term"){
+                    $eventObj = [PSCustomObject]@{
+                        Type = "Half Term"
+                        Date = [datetime]::ParseExact(($row.Split(" ")[2..4] + $termYear), "dddd d MMMM yyyy", $null)
+                        Term = $heading.TextContent.Split(" ")[0]
+                    }
+                    $events.Add($eventObj)
+                    
+                    $eventObj = [PSCustomObject]@{
+                        Type = "In Term"
+                        Date = [datetime]::ParseExact(($row.Split(" ")[6..8] + $termYear), "dddd d MMMM yyyy", $null).AddDays(1)
+                        Term = $heading.TextContent.Split(" ")[0]
+                    }
+                    $events.Add($eventObj)
+                }
+                elseif ($eventType -eq "Term End"){
+                    $eventObj = [PSCustomObject]@{
+                        Type = "Holiday"
+                        Date = [datetime]::ParseExact(($row.Split(" ")[0..2] + $termYear), "dddd d MMMM yyyy", $null).AddDays(1)
+                        Term = $heading.TextContent.Split(" ")[0]
+                    }
+                    $events.Add($eventObj)
+                }
+                elseif ($eventType -eq "Bank Holiday"){
+                    $eventObj = [PSCustomObject]@{
+                        Type = "Bank Holiday"
+                        Date = [datetime]::ParseExact(($row.Split(" ")[0..2] + $termYear), "dddd d MMMM yyyy", $null)
+                        Term = $heading.TextContent.Split(" ")[0]
+                    }
+                    $events.Add($eventObj)
+                    $eventObj = [PSCustomObject]@{
+                        Type = "In Term"
+                        Date = [datetime]::ParseExact(($row.Split(" ")[0..2] + $termYear), "dddd d MMMM yyyy", $null).AddDays(1)
+                        Term = $heading.TextContent.Split(" ")[0]
+                    }
+                    $events.Add($eventObj)
+                }
+                elseif ($eventType -ne "Skip") {
+                    $eventObj = [PSCustomObject]@{
+                        Type = $eventType
+                        Date = [datetime]::ParseExact(($row.Split(" ")[0..2] + $termYear), "dddd d MMMM yyyy", $null)
+                        Term = $heading.TextContent.Split(" ")[0]
+                    }
+                    $events.Add($eventObj)
+                }
+            }
+        }
+
+        $currentDate = Get-Date
+
+        for (($a = 0), ($b = 1); $b -lt $events.Count; $a++, $b++){
+            if (($events[$a].Type -eq "Induction") -and ($events[$b].Type -eq "In Term")){
+                $events[$b].Date = $events[$a].Date
+                $events.RemoveAt($a)
+            }
+            if (($currentDate -ge $events[$a].Date) -and ($currentDate -le $events[$b].Date)){
+                return $events[$a].Type
+            }
+        }
+    }
+    
+    END {}
+}
+
 function Get-HTMLBody {
     Param
     (
@@ -94,6 +195,32 @@ if (!(Test-Path -Path $logPath -PathType Container)){
     New-Item -Path $logPath -ItemType Directory -Force
 }
 
+# Calculate the $deliverySetting based on day of week and term status
+$date = Get-Date
+$start = Get-Date "08:00"
+$end = Get-Date "17:00"
+$termStatus = Get-TermStatus
+$isWeekend = $false
+$isSchoolTime = $false
+
+
+if ($date.DayOfWeek -match "Saturday|Sunday"){
+    $isWeekend = $true
+}
+
+if (($start.TimeOfDay -le $date.TimeOfDay) -and ($end.TimeOfDay -ge $date.TimeOfDay)){
+    $isSchoolTime = $true
+}
+
+if (($termStatus -eq "In Term") -and (!$isWeekend) -and ($isSchoolTime)){
+    # Enable Notifications
+    $deliverySetting = "ALL_MAIL"
+}
+else {
+    # It's either the weekend, half term, or holiday so disable notifications
+    $deliverySetting = "NONE"
+}
+Write-Log -Message "Term status = $termStatus, isWeekend = $isWeekend, isSchoolTime = $isSchoolTime"
 Write-Log -Message "Starting Securly group subscription update process"
 
 # Get the Securly alerts email groups 
@@ -125,8 +252,8 @@ foreach ($group in $groups){
         foreach ($member in $groupMembers){
             Write-Log -Message "Updating group subscription setting for $($member.Email)"
             try {
-                Update-GSGroupMember -Identity $group.Id -Member $member.Email -DeliverySettings $DeliverySetting | Out-Null
-                Write-Log -Message "Subscription successfully set to $DeliverySetting"
+                Update-GSGroupMember -Identity $group.Id -Member $member.Email -DeliverySettings $deliverySetting | Out-Null
+                Write-Log -Message "Subscription successfully set to $deliverySetting"
                 $RecipientList.Add([MimeKit.InternetAddress]("$($member.Email)"))
             }
             catch {
@@ -137,7 +264,7 @@ foreach ($group in $groups){
                 throw
             }
         } 
-        if ($DeliverySetting -eq "ALL_MAIL"){
+        if ($deliverySetting -eq "ALL_MAIL"){
             # Subscriptions enabled, send notification to members
             Write-Log -Message "Notifying members of subscription re-enablement"
             try {
