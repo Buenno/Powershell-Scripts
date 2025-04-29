@@ -6,11 +6,10 @@
 .NOTES
     Author: Toby Williams
     Date: 02-10-2024
-    Version: 1.0
+    Version: 1.1
             1.0: Basic Script
+            1.1: Added Get-TermStatus function to make script more dynamic. Can now determine term status so you no longer need to pass in the status manually
 #>
-
-#requires -Modules Send-MailKitMessage, PSGSuite, PSParseHTML
 
 $ErrorActionPreference = 'Stop'
 
@@ -157,9 +156,8 @@ function Remove-Logs {
     }
 }
 
-# Mail Settings
-# Import-Clixml "$PSScriptRoot\credentials\credentials.xml" 
-# [System.Management.Automation.PSCredential]::new("USERNAME", (ConvertTo-SecureString -String "PASSWORD" -AsPlainText -Force))
+Import-Module Send-MailKitMessage, PSGSuite, PSParseHTML -DisableNameChecking -ErrorAction SilentlyContinue
+Write-Log -Message "Module import complete"
 
 $fromAddress = [MimeKit.MailboxAddress]("svc_securlygrpupdate@theabbey.co.uk")
 $fromAddress.Name = "Securly Automations"
