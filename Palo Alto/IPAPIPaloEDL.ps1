@@ -23,7 +23,7 @@ $paloScriptDir = "C:\Scripts\Palo"
 $VPNIPDir = "$($paloScriptDir)\VPN_IP"
 $workingDir = "$($VPNIPDir)\workingDir"
 
-$dataURL = "https://ipapi.is/app/getData?type=ipToVpn&format=csv&apiKey=000000000000"
+$dataURL = "https://ipapi.is/app/getData?type=ipToVpn&format=csv&apiKey=APIKEYHERE"
 
 # Create directory structure
 
