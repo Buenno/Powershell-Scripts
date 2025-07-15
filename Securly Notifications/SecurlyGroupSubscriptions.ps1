@@ -1,14 +1,14 @@
 <#
 .SYNOPSIS
-    Enables or disables group notifications for Securly alert group members.
-    ./SecurlyGroupSubscription.ps1 -DeliverySetting NONE
+    Enables or disables group notifications for Securly alert group members
     
 .NOTES
     Author: Toby Williams
     Date: 02-10-2024
-    Version: 1.1
+    Version: 1.2
             1.0: Basic Script
             1.1: Added Get-TermStatus function to make script more dynamic. Can now determine term status so you no longer need to pass in the status manually
+            1.2: Switched out Send-MailKitMessage for Send-GmailMessage due to conflicting BouncyCastle.Cryptography assemblies 
 #>
 
 $ErrorActionPreference = 'Stop'
@@ -36,7 +36,7 @@ Function Get-TermStatus {
     }
     
     PROCESS {
-        $url = ""
+        $url = "https://theabbey.co.uk/the-abbey-all-girls/term-dates/"
         $html = ConvertFrom-HTML -Url $url -Engine AngleSharp
 
         $termHeadings = $html.GetElementsByTagName("H3") | Where-Object {$_.InnerHTML -like "*Term*"}
@@ -156,36 +156,8 @@ function Remove-Logs {
     }
 }
 
-Import-Module Send-MailKitMessage, PSGSuite, PSParseHTML -DisableNameChecking -ErrorAction SilentlyContinue
+Import-Module PSGSuite, PSParseHTML -ErrorAction SilentlyContinue
 Write-Log -Message "Module import complete"
-
-$fromAddress = [MimeKit.MailboxAddress]("svc_securlygrpupdate@theabbey.co.uk")
-$fromAddress.Name = "Securly Automations"
-#$BCCList = [MimeKit.InternetAddressList]::new();
-#$BCCList.Add([MimeKit.InternetAddress]"williamsto+securly@theabbey.co.uk");
-
-# Import Credentials
-try {
-    $creds = Import-Clixml "$PSScriptRoot\credentials\credentials.xml"
-}
-catch {
-    Write-Log -Message "Unable to import credentials - $_"
-    throw
-}
-
-$mailParams = @{
-    "SMTPServer" = "smtp-relay.gmail.com"
-    "Port" = "587"
-    "Credential" = $creds
-    "UseSecureConnectionIfAvailable" = $true
-    "From" = $fromAddress
-    "BCCList" = $BCCList
-}
-
-$ErrMailParams = $mailParams.Clone()
-$RecipientErr = [MimeKit.InternetAddressList]::new()
-$RecipientErr.Add([MimeKit.InternetAddress]("williamsto+error@theabbey.co.uk"))
-$ErrMailParams.Add("RecipientList", $RecipientErr)
 
 # Create log dir if not exist
 $logPath = "$PSScriptRoot\logs\"
@@ -193,14 +165,29 @@ if (!(Test-Path -Path $logPath -PathType Container)){
     New-Item -Path $logPath -ItemType Directory -Force
 }
 
+# Define email params for errors
+$ErrMailParams = @{
+    "To" =  "williamsto+error@theabbey.co.uk"    
+}
+
 # Calculate the $deliverySetting based on day of week and term status
 $date = Get-Date
 $start = Get-Date "08:00"
 $end = Get-Date "17:00"
-$termStatus = Get-TermStatus
 $isWeekend = $false
 $isSchoolTime = $false
 
+try {
+    $termStatus = Get-TermStatus
+}
+catch {
+    $errTxt = "Error encountered when attempting to obtain term status information"
+    Write-Log $errTxt
+    $ErrMailParams.Add("Subject", "ERROR: Securely Notifications")
+    $ErrMailParams.Add("TextBody", $errTxt) 
+    Send-GmailMessage @ErrMailParams
+    throw 
+}
 
 if ($date.DayOfWeek -match "Saturday|Sunday"){
     $isWeekend = $true
@@ -224,7 +211,7 @@ Write-Log -Message "Starting Securly group subscription update process"
 # Get the Securly alerts email groups 
 try {
     Write-Log -Message "Getting Securly notification groups"
-    $groups = Get-GSGroup -Filter "email:securly-alerts*"
+    $groups = Get-GSGroup -Filter "email:securly-alerts*" -
     Write-Log -Message "The following groups were returned: $($groups.Name)"
 }
 catch {
@@ -234,16 +221,16 @@ catch {
 
 foreach ($group in $groups){
     $groupURL = ($group.Email -split "@")[0]
-    $RecipientList = [MimeKit.InternetAddressList]::new()
+    $RecipientList = New-Object System.Collections.ArrayList  
     try {
         Write-Log -Message "Getting members of $($group.Name)"
-        $groupMembers = Get-GSGroupMember -Identity $group.Id 
+        $groupMembers = Get-GSGroupMember -Identity $group.Id | Out-Null
     }
     catch {
         Write-Log -Message "Unable to get members of group $($group.Name)"
         $ErrMailParams.Add("Subject", "ERROR: Securely Notifications - $($group.Name)")
         $ErrMailParams.Add("TextBody", "Unable to get members of group $($group.Name)") 
-        Send-MailKitMessage @ErrMailParams 
+        Send-GmailMessage @ErrMailParams 
         throw
     }    
     if ($groupMembers){
@@ -252,13 +239,13 @@ foreach ($group in $groups){
             try {
                 Update-GSGroupMember -Identity $group.Id -Member $member.Email -DeliverySettings $deliverySetting | Out-Null
                 Write-Log -Message "Subscription successfully set to $deliverySetting"
-                $RecipientList.Add([MimeKit.InternetAddress]("$($member.Email)"))
+                $RecipientList.Add("$($member.Email)")
             }
             catch {
                 Write-Log "Error encountered when attempting to update group subscription for $($member.Email) - $_"
                 $ErrMailParams.Add("Subject", "ERROR: Securely Notifications - $($group.Name)")
                 $ErrMailParams.Add("TextBody", "Error encountered when attempting to update group subscription for $($member.Email) - $_") 
-                Send-MailKitMessage @ErrMailParams 
+                Send-GmailMessage @ErrMailParams 
                 throw
             }
         } 
@@ -266,11 +253,7 @@ foreach ($group in $groups){
             # Subscriptions enabled, send notification to members
             Write-Log -Message "Notifying members of subscription re-enablement"
             try {
-                $notifyParams = $mailParams.Clone()    
-                $notifyParams.Add("RecipientList", $RecipientList)
-                $notifyParams.Add("Subject", "Securely Notifications Enabled - $($group.Name)")
-                $notifyParams.Add("HTMLBody", (Get-HTMLBody -GroupName $groupURL))
-                Send-MailKitMessage @notifyParams
+                Send-GmailMessage -To $RecipientList -Subject "Securely Notifications Enabled - $($group.Name)" -BodyAsHtml "$(Get-HTMLBody -GroupName $groupURL)"
                 Write-Log -Message "Email sent"
             }
             catch {

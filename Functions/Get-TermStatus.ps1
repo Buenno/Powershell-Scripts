@@ -21,7 +21,7 @@ Function Get-TermStatus {
     }
     
     PROCESS {
-        $url = ""
+        $url = "https://theabbey.co.uk/the-abbey-all-girls/term-dates/"
         $html = ConvertFrom-HTML -Url $url -Engine AngleSharp
 
         $termHeadings = $html.GetElementsByTagName("H3") | Where-Object {$_.InnerHTML -like "*Term*"}
@@ -72,6 +72,7 @@ Function Get-TermStatus {
                         Term = $heading.TextContent.Split(" ")[0]
                     }
                     $events.Add($eventObj)
+                    
                     $eventObj = [PSCustomObject]@{
                         Type = "In Term"
                         Date = [datetime]::ParseExact(($row.Split(" ")[0..2] + $termYear), "dddd d MMMM yyyy", $null).AddDays(1)
