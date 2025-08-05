@@ -1,4 +1,3 @@
-# function template
 Function Get-HRPToken {
   <#
     .SYNOPSIS
