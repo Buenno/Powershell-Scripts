@@ -13,7 +13,7 @@
     <tags></tags>
   </metadata>
   <parameters>
-    <parameter name="FunctionName" type="text" prompt="Name of your module" />
+    <parameter name="FunctionName" type="text" prompt="Name of your function" />
   </parameters>
   <content>
     <message>

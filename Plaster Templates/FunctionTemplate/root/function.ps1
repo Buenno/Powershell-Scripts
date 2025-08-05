@@ -1,4 +1,3 @@
-# function template
 <%
 "Function $PLASTER_PARAM_FunctionName {"
 %>
