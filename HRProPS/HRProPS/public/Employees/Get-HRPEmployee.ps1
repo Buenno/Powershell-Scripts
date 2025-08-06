@@ -61,7 +61,7 @@ Function Get-HRPEmployee {
         KnownAs               = $r.Personal.KnownAs
         Forenames             = $r.Personal.Forenames
         Surname               = $r.Personal.Surname
-        Address               = $address
+        Address               = $r.address
         Gender                = $r.Personal.Gender
         Pronouns              = $r.Personal.Pronouns.Value
         MaritalStatus         = $r.Personal.MaritalStatus
