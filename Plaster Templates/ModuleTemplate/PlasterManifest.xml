@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<plasterManifest
+  schemaVersion="1.2"
+  templateType="Project"
+  xmlns="http://www.microsoft.com/schemas/PowerShell/Plaster/v1">
+  <metadata>
+    <name>ModuleTemplate</name>
+    <id>14fe294d-9dd6-408a-8926-9b99f2ec44b1</id>
+    <version>0.0.1</version>
+    <title>Module Template</title>
+    <description></description>
+    <author>Toby Williams</author>
+    <tags></tags>
+  </metadata>
+  <parameters>
+    <parameter name="FullName" type="text" prompt="Module author's name" />
+    <parameter name="ModuleName" type="text" prompt="Name of your module" />
+    <parameter name="ModuleDesc" type="text" prompt="Brief description on this module" />
+    <parameter name="Version" type="text" prompt="Initial module version"  default="0.0.1"/>
+  </parameters>
+  <content>
+    <message>
+    Creating folder structure
+    </message>
+    <file source='' destination='${PLASTER_PARAM_ModuleName}\public'/>
+    <file source='' destination='${PLASTER_PARAM_ModuleName}\private'/>
+    <file source='' destination='${PLASTER_PARAM_ModuleName}\classes'/>
+
+    <message>
+    Deploying common files
+    </message>
+    <file source='root\module\module.psm1' destination='${PLASTER_PARAM_ModuleName}\${PLASTER_PARAM_ModuleName}.psm1'/>
+
+    <newModuleManifest 
+        destination='${PLASTER_PARAM_ModuleName}\${PLASTER_PARAM_ModuleName}.psd1'
+        moduleVersion='$PLASTER_PARAM_Version'
+        rootModule='${PLASTER_PARAM_ModuleName}.psm1'
+        author='$PLASTER_PARAM_FullName'
+        description='$PLASTER_PARAM_ModuleDesc'
+        encoding='UTF8-NoBOM'/>
+  </content>
+</plasterManifest>

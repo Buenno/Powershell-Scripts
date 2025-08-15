@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<plasterManifest
+  schemaVersion="1.2"
+  templateType="Item"
+  xmlns="http://www.microsoft.com/schemas/PowerShell/Plaster/v1">
+  <metadata>
+    <name>FunctionTemplate</name>
+    <id>8bd7a683-51fc-4508-8887-e2ed8c4689d0</id>
+    <version>0.0.1</version>
+    <title>Function Template</title>
+    <description>Function scaffolding</description>
+    <author>Toby Williams</author>
+    <tags></tags>
+  </metadata>
+  <parameters>
+    <parameter name="FunctionName" type="text" prompt="Name of your function" />
+  </parameters>
+  <content>
+    <message>
+    Creating function
+    </message>
+    <templateFile source='root\function.ps1' destination='${PLASTER_PARAM_FunctionName}.ps1' />
+  </content>
+</plasterManifest>
