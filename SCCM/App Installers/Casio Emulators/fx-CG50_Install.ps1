@@ -13,8 +13,6 @@ try {
     }
 
     if ($app) {
-        Write-Host "Existing installation detected. Uninstalling..."
-
         if ($app.UninstallString -match "{.*}") {
             $productCode = $matches[0]
 
@@ -33,13 +31,8 @@ try {
             throw "Could not extract product code from UninstallString"
         }
     }
-    else {
-        Write-Host "No existing installation found."
-    }
 
     # perform installation
-    Write-Host "Installing new version..."
-
     $arguments = @(
         "/l1033"
         "/s"
@@ -58,8 +51,6 @@ try {
     }
 
     Copy-Item -Path $patchPath -Destination $patchDestPath -Force
-
-    Write-Host "Installation completed successfully."
 }
 catch {
     Write-Error $_

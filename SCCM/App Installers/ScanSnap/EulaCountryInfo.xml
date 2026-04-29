@@ -1,0 +1,1749 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<scanSnap>
+<item>
+<code>IS</code>
+<title lang="ja">アイスランド</title>
+<title>Iceland</title>
+<title lang="fr">Islande</title>
+<title lang="de">Island</title>
+<title lang="es">Islandia</title>
+<title lang="it">Islanda</title>
+<title lang="ru">Исландия</title>
+<title lang="po">Islândia</title>
+<title lang="zh-CN">冰岛</title>
+<title lang="zh-tw">冰島</title>
+<title lang="ko">아이슬란드</title>
+<title lang="nl">IJsland</title>
+<title lang="pl">Islandia</title>
+<title lang="ar">أيسلندا</title>
+<scloud>0</scloud>
+</item>
+<item>
+<code>IE</code>
+<title lang="ja">アイルランド</title>
+<title>Ireland</title>
+<title lang="fr">Irlande</title>
+<title lang="de">Irland</title>
+<title lang="es">Irlanda</title>
+<title lang="it">Irlanda</title>
+<title lang="ru">Ирландия</title>
+<title lang="po">Irlanda</title>
+<title lang="zh-CN">爱尔兰</title>
+<title lang="zh-tw">愛爾蘭</title>
+<title lang="ko">아일랜드</title>
+<title lang="nl">Ierland</title>
+<title lang="pl">Irlandia</title>
+<title lang="ar">أيرلندا</title>
+<scloud>1</scloud>
+</item>
+<item>
+<code>US</code>
+<title lang="ja">アメリカ合衆国</title>
+<title>United States</title>
+<title lang="fr">États-Unis</title>
+<title lang="de">Vereinigte Staaten</title>
+<title lang="es">Estados Unidos</title>
+<title lang="it">Stati Uniti</title>
+<title lang="ru">Соединенные Штаты</title>
+<title lang="po">Estados Unidos</title>
+<title lang="zh-CN">美国</title>
+<title lang="zh-tw">美國</title>
+<title lang="ko">미국</title>
+<title lang="nl">Verenigde Staten</title>
+<title lang="pl">Stany Zjednoczone</title>
+<title lang="ar">الولايات المتحدة</title>
+<scloud>1</scloud>
+</item>
+<item>
+<code>AE</code>
+<title lang="ja">アラブ首長国連邦</title>
+<title>United Arab Emirates</title>
+<title lang="fr">Émirats arabes unis</title>
+<title lang="de">Vereinigte Arabische Emirate</title>
+<title lang="es">Emiratos Árabes Unidos</title>
+<title lang="it">Emirati Arabi Uniti</title>
+<title lang="ru">ОАЭ</title>
+<title lang="po">Emirados Árabes Unidos</title>
+<title lang="zh-CN">阿拉伯联合酋长国</title>
+<title lang="zh-tw">阿拉伯聯合大公國</title>
+<title lang="ko">아랍에미리트</title>
+<title lang="nl">Verenigde Arabische Emiraten</title>
+<title lang="pl">Zjednoczone Emiraty Arabskie</title>
+<title lang="ar">الإمارات العربية المتحدة</title>
+<scloud>1</scloud>
+</item>
+<item>
+<code>AR</code>
+<title lang="ja">アルゼンチン</title>
+<title>Argentina</title>
+<title lang="fr">Argentine</title>
+<title lang="de">Argentinien</title>
+<title lang="es">Argentina</title>
+<title lang="it">Argentina</title>
+<title lang="ru">Аргентина</title>
+<title lang="po">Argentina</title>
+<title lang="zh-CN">阿根廷</title>
+<title lang="zh-tw">阿根廷</title>
+<title lang="ko">아르헨티나</title>
+<title lang="nl">Argentinië</title>
+<title lang="pl">Argentyna</title>
+<title lang="ar">الأرجنتين</title>
+<scloud>0</scloud>
+</item>
+<item>
+<code>GB</code>
+<title lang="ja">イギリス</title>
+<title>United Kingdom</title>
+<title lang="fr">Royaume-Uni</title>
+<title lang="de">Vereinigtes Königreich</title>
+<title lang="es">Reino Unido</title>
+<title lang="it">Regno Unito</title>
+<title lang="ru">Великобритания</title>
+<title lang="po">Reino Unido</title>
+<title lang="zh-CN">英国</title>
+<title lang="zh-tw">英國</title>
+<title lang="ko">영국</title>
+<title lang="nl">Verenigd Koninkrijk</title>
+<title lang="pl">Wielka Brytania</title>
+<title lang="ar">المملكة المتحدة</title>
+<scloud>1</scloud>
+</item>
+<item>
+<code>IL</code>
+<title lang="ja">イスラエル</title>
+<title>Israel</title>
+<title lang="fr">Israël</title>
+<title lang="de">Israel</title>
+<title lang="es">Israel</title>
+<title lang="it">Israele</title>
+<title lang="ru">Израиль</title>
+<title lang="po">Israel</title>
+<title lang="zh-CN">以色列</title>
+<title lang="zh-tw">以色列</title>
+<title lang="ko">이스라엘</title>
+<title lang="nl">Israël</title>
+<title lang="pl">Izrael</title>
+<title lang="ar">إسرائيل</title>
+<scloud>0</scloud>
+</item>
+<item>
+<code>IT</code>
+<title lang="ja">イタリア</title>
+<title>Italy</title>
+<title lang="fr">Italie</title>
+<title lang="de">Italien</title>
+<title lang="es">Italia</title>
+<title lang="it">Italian</title>
+<title lang="ru">Италия</title>
+<title lang="po">Itália</title>
+<title lang="zh-CN">意大利</title>
+<title lang="zh-tw">義大利</title>
+<title lang="ko">이탈리아</title>
+<title lang="nl">Italië</title>
+<title lang="pl">Włochy</title>
+<title lang="ar">إيطاليا</title>
+<scloud>1</scloud>
+</item>
+<item>
+<code>IN</code>
+<title lang="ja">インド</title>
+<title>India</title>
+<title lang="fr">Inde</title>
+<title lang="de">Indien</title>
+<title lang="es">India</title>
+<title lang="it">India</title>
+<title lang="ru">Индия</title>
+<title lang="po">Índia</title>
+<title lang="zh-CN">印度</title>
+<title lang="zh-tw">印度</title>
+<title lang="ko">인도</title>
+<title lang="nl">India</title>
+<title lang="pl">Indie</title>
+<title lang="ar">الهند</title>
+<scloud>0</scloud>
+</item>
+<item>
+<code>ID</code>
+<title lang="ja">インドネシア</title>
+<title>Indonesia</title>
+<title lang="fr">Indonésie</title>
+<title lang="de">Indonesien</title>
+<title lang="es">Indonesia</title>
+<title lang="it">Indonesia</title>
+<title lang="ru">Индонезия</title>
+<title lang="po">Indonésia</title>
+<title lang="zh-CN">印度尼西亚</title>
+<title lang="zh-tw">印尼</title>
+<title lang="ko">인도네시아</title>
+<title lang="nl">Indonesië</title>
+<title lang="pl">Indonezja</title>
+<title lang="ar">إندونيسيا</title>
+<scloud>1</scloud>
+</item>
+<item>
+<code>UA</code>
+<title lang="ja">ウクライナ</title>
+<title>Ukraine</title>
+<title lang="fr">Ukraine</title>
+<title lang="de">Ukraine</title>
+<title lang="es">Ucrania</title>
+<title lang="it">Ucraina</title>
+<title lang="ru">Украина</title>
+<title lang="po">Ucrânia</title>
+<title lang="zh-CN">乌克兰</title>
+<title lang="zh-tw">烏克蘭</title>
+<title lang="ko">우크라이나</title>
+<title lang="nl">Oekraïne</title>
+<title lang="pl">Ukraina</title>
+<title lang="ar">أوكرانيا</title>
+<scloud>0</scloud>
+</item>
+<item>
+<code>UZ</code>
+<title lang="ja">ウズベキスタン</title>
+<title>Uzbekistan</title>
+<title lang="fr">Ouzbékistan</title>
+<title lang="de">Usbekistan</title>
+<title lang="es">Uzbekistán</title>
+<title lang="it">Uzbekistan</title>
+<title lang="ru">Узбекистан</title>
+<title lang="po">Uzbequistão</title>
+<title lang="zh-CN">乌兹别克斯坦</title>
+<title lang="zh-tw">烏茲別克</title>
+<title lang="ko">우즈베키스탄</title>
+<title lang="nl">Oezbekistan</title>
+<title lang="pl">Uzbekistan</title>
+<title lang="ar">أوزبكستان</title>
+<scloud>0</scloud>
+</item>
+<item>
+<code>EC</code>
+<title lang="ja">エクアドル</title>
+<title>Ecuador</title>
+<title lang="fr">Équateur</title>
+<title lang="de">Ecuador</title>
+<title lang="es">Ecuador</title>
+<title lang="it">Ecuador</title>
+<title lang="ru">Эквадор</title>
+<title lang="po">Equador</title>
+<title lang="zh-CN">厄瓜多尔</title>
+<title lang="zh-tw">厄瓜多</title>
+<title lang="ko">에콰도르</title>
+<title lang="nl">Ecuador</title>
+<title lang="pl">Ekwador</title>
+<title lang="ar">الإكوادور</title>
+<scloud>0</scloud>
+</item>
+<item>
+<code>EG</code>
+<title lang="ja">エジプト</title>
+<title>Egypt</title>
+<title lang="fr">Égypte</title>
+<title lang="de">Ägypten</title>
+<title lang="es">Egipto</title>
+<title lang="it">Egitto</title>
+<title lang="ru">Египет</title>
+<title lang="po">Egito</title>
+<title lang="zh-CN">埃及</title>
+<title lang="zh-tw">埃及</title>
+<title lang="ko">이집트</title>
+<title lang="nl">Egypte</title>
+<title lang="pl">Egipt</title>
+<title lang="ar">مصر</title>
+<scloud>0</scloud>
+</item>
+<item>
+<code>EE</code>
+<title lang="ja">エストニア</title>
+<title>Estonia</title>
+<title lang="fr">Estonie</title>
+<title lang="de">Estland</title>
+<title lang="es">Estonia</title>
+<title lang="it">Estonia</title>
+<title lang="ru">Эстония</title>
+<title lang="po">Estônia</title>
+<title lang="zh-CN">爱沙尼亚</title>
+<title lang="zh-tw">愛沙尼亞</title>
+<title lang="ko">에스토니아</title>
+<title lang="nl">Estland</title>
+<title lang="pl">Estonia</title>
+<title lang="ar">إستونيا</title>
+<scloud>1</scloud>
+</item>
+<item>
+<code>SV</code>
+<title lang="ja">エルサルバドル</title>
+<title>El Salvador</title>
+<title lang="fr">El Salvador</title>
+<title lang="de">El Salvador</title>
+<title lang="es">El Salvador</title>
+<title lang="it">El Salvador</title>
+<title lang="ru">Сальвадор</title>
+<title lang="po">El Salvador</title>
+<title lang="zh-CN">萨尔瓦多</title>
+<title lang="zh-tw">薩爾瓦多</title>
+<title lang="ko">엘살바도르</title>
+<title lang="nl">El Salvador</title>
+<title lang="pl">Salwador</title>
+<title lang="ar">السلفادور</title>
+<scloud>0</scloud>
+</item>
+<item>
+<code>AU</code>
+<title lang="ja">オーストラリア</title>
+<title>Australia</title>
+<title lang="fr">Australie</title>
+<title lang="de">Australien</title>
+<title lang="es">Australia</title>
+<title lang="it">Australia</title>
+<title lang="ru">Австралия</title>
+<title lang="po">Austrália</title>
+<title lang="zh-CN">澳大利亚</title>
+<title lang="zh-tw">澳洲</title>
+<title lang="ko">오스트레일리아</title>
+<title lang="nl">Australië</title>
+<title lang="pl">Australia</title>
+<title lang="ar">أستراليا</title>
+<scloud>1</scloud>
+</item>
+<item>
+<code>AT</code>
+<title lang="ja">オーストリア</title>
+<title>Austria</title>
+<title lang="fr">Austriche</title>
+<title lang="de">Österreich</title>
+<title lang="es">Austria</title>
+<title lang="it">Austria</title>
+<title lang="ru">Австрия</title>
+<title lang="po">Áustria</title>
+<title lang="zh-CN">奥地利</title>
+<title lang="zh-tw">奧地利</title>
+<title lang="ko">오스트리아</title>
+<title lang="nl">Oostenrijk</title>
+<title lang="pl">Austria</title>
+<title lang="ar">النمسا</title>
+<scloud>1</scloud>
+</item>
+<item>
+<code>OM</code>
+<title lang="ja">オマーン</title>
+<title>Oman</title>
+<title lang="fr">Oman</title>
+<title lang="de">Oman</title>
+<title lang="es">Omán</title>
+<title lang="it">Oman</title>
+<title lang="ru">Оман</title>
+<title lang="po">Omã</title>
+<title lang="zh-CN">阿曼</title>
+<title lang="zh-tw">阿曼王國</title>
+<title lang="ko">오만</title>
+<title lang="nl">Oman</title>
+<title lang="pl">Oman</title>
+<title lang="ar">عمان</title>
+<scloud>0</scloud>
+</item>
+<item>
+<code>NL</code>
+<title lang="ja">オランダ</title>
+<title>Netherlands</title>
+<title lang="fr">Pays-Bas</title>
+<title lang="de">Niederlande</title>
+<title lang="es">Países Bajos</title>
+<title lang="it">Paesi Bassi</title>
+<title lang="ru">Нидерланды</title>
+<title lang="po">Holanda</title>
+<title lang="zh-CN">荷兰</title>
+<title lang="zh-tw">荷蘭</title>
+<title lang="ko">네덜란드</title>
+<title lang="nl">Nederland</title>
+<title lang="pl">Holandia</title>
+<title lang="ar">هولندا</title>
+<scloud>1</scloud>
+</item>
+<item>
+<code>KZ</code>
+<title lang="ja">カザフスタン</title>
+<title>Kazakhstan</title>
+<title lang="fr">Kazakhstan</title>
+<title lang="de">Kasachstan</title>
+<title lang="es">Kazajistán</title>
+<title lang="it">Kazakistan</title>
+<title lang="ru">Казахстан</title>
+<title lang="po">Cazaquistão</title>
+<title lang="zh-CN">哈萨克斯坦</title>
+<title lang="zh-tw">哈薩克</title>
+<title lang="ko">카자흐스탄</title>
+<title lang="nl">Kazachstan</title>
+<title lang="pl">Kazachstan</title>
+<title lang="ar">كازاخستان</title>
+<scloud>0</scloud>
+</item>
+<item>
+<code>QA</code>
+<title lang="ja">カタール</title>
+<title>Qatar</title>
+<title lang="fr">Qatar</title>
+<title lang="de">Katar</title>
+<title lang="es">Catar</title>
+<title lang="it">Qatar</title>
+<title lang="ru">Катар</title>
+<title lang="po">Catar</title>
+<title lang="zh-CN">卡塔尔</title>
+<title lang="zh-tw">卡達</title>
+<title lang="ko">카타르</title>
+<title lang="nl">Qatar</title>
+<title lang="pl">Katar</title>
+<title lang="ar">قطر</title>
+<scloud>0</scloud>
+</item>
+<item>
+<code>CA</code>
+<title lang="ja">カナダ</title>
+<title>Canada</title>
+<title lang="fr">Canada</title>
+<title lang="de">Kanada</title>
+<title lang="es">Canadá</title>
+<title lang="it">Canada</title>
+<title lang="ru">Канада</title>
+<title lang="po">Canadá</title>
+<title lang="zh-CN">加拿大</title>
+<title lang="zh-tw">加拿大</title>
+<title lang="ko">캐나다</title>
+<title lang="nl">Canada</title>
+<title lang="pl">Kanada</title>
+<title lang="ar">كندا</title>
+<scloud>1</scloud>
+</item>
+<item>
+<code>CY</code>
+<title lang="ja">キプロス</title>
+<title>Cyprus</title>
+<title lang="fr">Chypre</title>
+<title lang="de">Zypern</title>
+<title lang="es">Chipre</title>
+<title lang="it">Cipro</title>
+<title lang="ru">Кипр</title>
+<title lang="po">Chipre</title>
+<title lang="zh-CN">塞浦路斯</title>
+<title lang="zh-tw">賽普勒斯</title>
+<title lang="ko">키프로스</title>
+<title lang="nl">Cyprus</title>
+<title lang="pl">Cypr</title>
+<title lang="ar">قبرص</title>
+<scloud>1</scloud>
+</item>
+<item>
+<code>CW</code>
+<title lang="ja">キュラソー</title>
+<title>Curacao</title>
+<title lang="fr">Curaçao</title>
+<title lang="de">Curaçao</title>
+<title lang="es">Curazao</title>
+<title lang="it">Curaçao</title>
+<title lang="ru">Кюрасао</title>
+<title lang="po">Curaçao</title>
+<title lang="zh-CN">库拉索</title>
+<title lang="zh-tw">庫拉索</title>
+<title lang="ko">퀴라소</title>
+<title lang="nl">Curaçao</title>
+<title lang="pl">Curacao</title>
+<title lang="ar">كوراساو</title>
+<scloud>0</scloud>
+</item>
+<item>
+<code>GR</code>
+<title lang="ja">ギリシャ</title>
+<title>Greece</title>
+<title lang="fr">Grèce</title>
+<title lang="de">Griechenland</title>
+<title lang="es">Grecia</title>
+<title lang="it">Grecia</title>
+<title lang="ru">Греция</title>
+<title lang="po">Grécia</title>
+<title lang="zh-CN">希腊</title>
+<title lang="zh-tw">希臘</title>
+<title lang="ko">그리스</title>
+<title lang="nl">Griekenland</title>
+<title lang="pl">Grecja</title>
+<title lang="ar">اليونان</title>
+<scloud>1</scloud>
+</item>
+<item>
+<code>GT</code>
+<title lang="ja">グアテマラ</title>
+<title>Guatemala</title>
+<title lang="fr">Guatemala</title>
+<title lang="de">Guatemala</title>
+<title lang="es">Guatemala</title>
+<title lang="it">Guatemala</title>
+<title lang="ru">Гватемала</title>
+<title lang="po">Guatemala</title>
+<title lang="zh-CN">危地马拉</title>
+<title lang="zh-tw">瓜地馬拉</title>
+<title lang="ko">과테말라</title>
+<title lang="nl">Guatemala</title>
+<title lang="pl">Gwatemala</title>
+<title lang="ar">غواتيمالا</title>
+<scloud>0</scloud>
+</item>
+<item>
+<code>KW</code>
+<title lang="ja">クウェート</title>
+<title>Kuwait</title>
+<title lang="fr">Koweït</title>
+<title lang="de">Kuwait</title>
+<title lang="es">Kuwait</title>
+<title lang="it">Kuwait</title>
+<title lang="ru">Кувейт</title>
+<title lang="po">Kuwait</title>
+<title lang="zh-CN">科威特</title>
+<title lang="zh-tw">科威特</title>
+<title lang="ko">쿠웨이트</title>
+<title lang="nl">Koeweit</title>
+<title lang="pl">Kuwejt</title>
+<title lang="ar">الكويت</title>
+<scloud>0</scloud>
+</item>
+<item>
+<code>HR</code>
+<title lang="ja">クロアチア</title>
+<title>Croatia</title>
+<title lang="fr">Croatie</title>
+<title lang="de">Kroatien</title>
+<title lang="es">Croacia</title>
+<title lang="it">Croazia</title>
+<title lang="ru">Хорватия</title>
+<title lang="po">Croácia</title>
+<title lang="zh-CN">克罗地亚</title>
+<title lang="zh-tw">克羅埃西亞</title>
+<title lang="ko">크로아티아</title>
+<title lang="nl">Kroatië</title>
+<title lang="pl">Chorwacja</title>
+<title lang="ar">كرواتيا</title>
+<scloud>1</scloud>
+</item>
+<item>
+<code>KY</code>
+<title lang="ja">ケイマン諸島</title>
+<title>Cayman Islands</title>
+<title lang="fr">Îles Caïmans</title>
+<title lang="de">Kaimaninseln</title>
+<title lang="es">Islas Caimán</title>
+<title lang="it">Isole Cayman</title>
+<title lang="ru">Каймановы о-ва</title>
+<title lang="po">Ilhas Cayman</title>
+<title lang="zh-CN">开曼群岛</title>
+<title lang="zh-tw">開曼群島</title>
+<title lang="ko">케이맨 제도</title>
+<title lang="nl">Kaaimaneilanden</title>
+<title lang="pl">Kajmany</title>
+<title lang="ar">جزر الكايمان</title>
+<scloud>0</scloud>
+</item>
+<item>
+<code>CR</code>
+<title lang="ja">コスタリカ</title>
+<title>Costa Rica</title>
+<title lang="fr">Costa Rica</title>
+<title lang="de">Costa Rica</title>
+<title lang="es">Costa Rica</title>
+<title lang="it">Costa Rica</title>
+<title lang="ru">Коста-Рика</title>
+<title lang="po">Costa Rica</title>
+<title lang="zh-CN">哥斯达黎加</title>
+<title lang="zh-tw">哥斯大黎加</title>
+<title lang="ko">코스타리카</title>
+<title lang="nl">Costa Rica</title>
+<title lang="pl">Kostaryka</title>
+<title lang="ar">كوستا ريكا</title>
+<scloud>0</scloud>
+</item>
+<item>
+<code>CO</code>
+<title lang="ja">コロンビア</title>
+<title>Colombia</title>
+<title lang="fr">Colombie</title>
+<title lang="de">Kolumbien</title>
+<title lang="es">Colombia</title>
+<title lang="it">Colombia</title>
+<title lang="ru">Колумбия</title>
+<title lang="po">Colômbia</title>
+<title lang="zh-CN">哥伦比亚</title>
+<title lang="zh-tw">哥倫比亞</title>
+<title lang="ko">콜롬비아</title>
+<title lang="nl">Colombia</title>
+<title lang="pl">Kolumbia</title>
+<title lang="ar">كولومبيا</title>
+<scloud>0</scloud>
+</item>
+<item>
+<code>SA</code>
+<title lang="ja">サウジアラビア</title>
+<title>Saudi Arabia</title>
+<title lang="fr">Arabie saoudite</title>
+<title lang="de">Saudi-Arabien</title>
+<title lang="es">Arabia Saudí</title>
+<title lang="it">Arabia Saudita</title>
+<title lang="ru">Саудовская Аравия</title>
+<title lang="po">Arábia Saudita</title>
+<title lang="zh-CN">沙特阿拉伯</title>
+<title lang="zh-tw">沙烏地阿拉伯</title>
+<title lang="ko">사우디아라비아</title>
+<title lang="nl">Saudi-Arabië</title>
+<title lang="pl">Arabia Saudyjska</title>
+<title lang="ar">المملكة العربية السعودية</title>
+<scloud>1</scloud>
+</item>
+<item>
+<code>SM</code>
+<title lang="ja">サンマリノ</title>
+<title>San Marino</title>
+<title lang="fr">Saint-Marin</title>
+<title lang="de">San Marino</title>
+<title lang="es">San Marino</title>
+<title lang="it">San Marino</title>
+<title lang="ru">Сан-Марино</title>
+<title lang="po">San Marino</title>
+<title lang="zh-CN">圣马力诺</title>
+<title lang="zh-tw">聖馬利諾</title>
+<title lang="ko">산마리노</title>
+<title lang="nl">San Marino</title>
+<title lang="pl">San Marino</title>
+<title lang="ar">سان مارينو</title>
+<scloud>0</scloud>
+</item>
+<item>
+<code>GE</code>
+<title lang="ja">ジョージア</title>
+<title>Georgia</title>
+<title lang="fr">Géorgie</title>
+<title lang="de">Georgien</title>
+<title lang="es">Georgia</title>
+<title lang="it">Georgia</title>
+<title lang="ru">Грузия</title>
+<title lang="po">Geórgia</title>
+<title lang="zh-CN">格鲁吉亚</title>
+<title lang="zh-tw">喬治亞</title>
+<title lang="ko">조지아</title>
+<title lang="nl">Georgië</title>
+<title lang="pl">Gruzja</title>
+<title lang="ar">جورجيا</title>
+<scloud>0</scloud>
+</item>
+<item>
+<code>SG</code>
+<title lang="ja">シンガポール</title>
+<title>Singapore</title>
+<title lang="fr">Singapour</title>
+<title lang="de">Singapur</title>
+<title lang="es">Singapur</title>
+<title lang="it">Singapore</title>
+<title lang="ru">Сингапур</title>
+<title lang="po">Cingapura</title>
+<title lang="zh-CN">新加坡</title>
+<title lang="zh-tw">新加坡</title>
+<title lang="ko">싱가포르</title>
+<title lang="nl">Singapore</title>
+<title lang="pl">Singapur</title>
+<title lang="ar">سنغافورة</title>
+<scloud>1</scloud>
+</item>
+<item>
+<code>CH</code>
+<title lang="ja">スイス</title>
+<title>Switzerland</title>
+<title lang="fr">Suisse</title>
+<title lang="de">Schweiz</title>
+<title lang="es">Suiza</title>
+<title lang="it">Svizzera</title>
+<title lang="ru">Швейцария</title>
+<title lang="po">Suíça</title>
+<title lang="zh-CN">瑞士</title>
+<title lang="zh-tw">瑞士</title>
+<title lang="ko">스위스</title>
+<title lang="nl">Zwitserland</title>
+<title lang="pl">Szwajcaria</title>
+<title lang="ar">سويسرا</title>
+<scloud>1</scloud>
+</item>
+<item>
+<code>SE</code>
+<title lang="ja">スウェーデン</title>
+<title>Sweden</title>
+<title lang="fr">Suède</title>
+<title lang="de">Schweden</title>
+<title lang="es">Suecia</title>
+<title lang="it">Svezia</title>
+<title lang="ru">Швеция</title>
+<title lang="po">Suécia</title>
+<title lang="zh-CN">瑞典</title>
+<title lang="zh-tw">瑞典</title>
+<title lang="ko">스웨덴</title>
+<title lang="nl">Zweden</title>
+<title lang="pl">Szwecja</title>
+<title lang="ar">السويد</title>
+<scloud>1</scloud>
+</item>
+<item>
+<code>ES</code>
+<title lang="ja">スペイン</title>
+<title>Spain</title>
+<title lang="fr">Espagne</title>
+<title lang="de">Spanien</title>
+<title lang="es">España</title>
+<title lang="it">Spagna</title>
+<title lang="ru">Испания</title>
+<title lang="po">Espanha</title>
+<title lang="zh-CN">西班牙</title>
+<title lang="zh-tw">西班牙</title>
+<title lang="ko">스페인</title>
+<title lang="nl">Spanje</title>
+<title lang="pl">Hiszpania</title>
+<title lang="ar">إسبانيا</title>
+<scloud>1</scloud>
+</item>
+<item>
+<code>LK</code>
+<title lang="ja">スリランカ</title>
+<title>Sri Lanka</title>
+<title lang="fr">Sri Lanka</title>
+<title lang="de">Sri Lanka</title>
+<title lang="es">Sri Lanka</title>
+<title lang="it">Sri Lanka</title>
+<title lang="ru">Шри-Ланка</title>
+<title lang="po">Sri Lanka</title>
+<title lang="zh-CN">斯里兰卡</title>
+<title lang="zh-tw">斯里蘭卡</title>
+<title lang="ko">스리랑카</title>
+<title lang="nl">Sri Lanka</title>
+<title lang="pl">Sri Lanka</title>
+<title lang="ar">سيريلانكا</title>
+<scloud>0</scloud>
+</item>
+<item>
+<code>SK</code>
+<title lang="ja">スロバキア</title>
+<title>Slovakia</title>
+<title lang="fr">Slovaquie</title>
+<title lang="de">Slowakei</title>
+<title lang="es">Eslovaquia</title>
+<title lang="it">Slovacchia</title>
+<title lang="ru">Словакия</title>
+<title lang="po">Eslováquia</title>
+<title lang="zh-CN">斯洛伐克</title>
+<title lang="zh-tw">斯洛伐克</title>
+<title lang="ko">슬로바키아</title>
+<title lang="nl">Slowakije</title>
+<title lang="pl">Słowacja</title>
+<title lang="ar">سلوفاكيا</title>
+<scloud>1</scloud>
+</item>
+<item>
+<code>SI</code>
+<title lang="ja">スロベニア</title>
+<title>Slovenia</title>
+<title lang="fr">Slovénie</title>
+<title lang="de">Slowenien</title>
+<title lang="es">Eslovenia</title>
+<title lang="it">Slovenia</title>
+<title lang="ru">Словения</title>
+<title lang="po">Eslovênia</title>
+<title lang="zh-CN">斯洛文尼亚</title>
+<title lang="zh-tw">斯洛維尼亞</title>
+<title lang="ko">슬로베니아</title>
+<title lang="nl">Slovenië</title>
+<title lang="pl">Słowenia</title>
+<title lang="ar">سلوفينيا</title>
+<scloud>1</scloud>
+</item>
+<item>
+<code>RS</code>
+<title lang="ja">セルビア</title>
+<title>Serbia</title>
+<title lang="fr">Serbie</title>
+<title lang="de">Serbien</title>
+<title lang="es">Serbia</title>
+<title lang="it">Serbia</title>
+<title lang="ru">Сербия</title>
+<title lang="po">Sérvia</title>
+<title lang="zh-CN">塞尔维亚</title>
+<title lang="zh-tw">塞爾維亞</title>
+<title lang="ko">세르비아</title>
+<title lang="nl">Servië</title>
+<title lang="pl">Serbia</title>
+<title lang="ar">صربيا</title>
+<scloud>0</scloud>
+</item>
+<item>
+<code>TH</code>
+<title lang="ja">タイ</title>
+<title>Thailand</title>
+<title lang="fr">Thaïlande</title>
+<title lang="de">Thailand</title>
+<title lang="es">Tailandia</title>
+<title lang="it">Thailandia</title>
+<title lang="ru">Таиланд</title>
+<title lang="po">Tailândia</title>
+<title lang="zh-CN">泰国</title>
+<title lang="zh-tw">泰國</title>
+<title lang="ko">태국</title>
+<title lang="nl">Thailand</title>
+<title lang="pl">Tajlandia</title>
+<title lang="ar">تايلاند</title>
+<scloud>1</scloud>
+</item>
+<item>
+<code>TJ</code>
+<title lang="ja">タジキスタン</title>
+<title>Tajikistan</title>
+<title lang="fr">Tadjikistan</title>
+<title lang="de">Tadschikistan</title>
+<title lang="es">Tayikistán</title>
+<title lang="it">Tagikistan</title>
+<title lang="ru">Таджикистан</title>
+<title lang="po">Tajiquistão</title>
+<title lang="zh-CN">塔吉克斯坦</title>
+<title lang="zh-tw">塔吉克</title>
+<title lang="ko">타지키스탄</title>
+<title lang="nl">Tadzjikistan</title>
+<title lang="pl">Tadżykistan</title>
+<title lang="ar">طاجيكستان</title>
+<scloud>0</scloud>
+</item>
+<item>
+<code>CZ</code>
+<title lang="ja">チェコ</title>
+<title>Czech Republic</title>
+<title lang="fr">République Tchèque</title>
+<title lang="de">Tschechien</title>
+<title lang="es">República Checa</title>
+<title lang="it">Repubblica Ceca</title>
+<title lang="ru">Чешская Республика</title>
+<title lang="po">República Checa</title>
+<title lang="zh-CN">捷克</title>
+<title lang="zh-tw">捷克</title>
+<title lang="ko">체코</title>
+<title lang="nl">Tsjechië</title>
+<title lang="pl">Republika Czeska</title>
+<title lang="ar">جمهورية التشيك</title>
+<scloud>1</scloud>
+</item>
+<item>
+<code>CL</code>
+<title lang="ja">チリ</title>
+<title>Chile</title>
+<title lang="fr">Chili</title>
+<title lang="de">Chile</title>
+<title lang="es">Chile</title>
+<title lang="it">Cile</title>
+<title lang="ru">Чили</title>
+<title lang="po">Chile</title>
+<title lang="zh-CN">智利</title>
+<title lang="zh-tw">智利</title>
+<title lang="ko">칠레</title>
+<title lang="nl">Chili</title>
+<title lang="pl">Chile</title>
+<title lang="ar">تشيلي</title>
+<scloud>0</scloud>
+</item>
+<item>
+<code>DK</code>
+<title lang="ja">デンマーク</title>
+<title>Denmark</title>
+<title lang="fr">Danemark</title>
+<title lang="de">Dänemark</title>
+<title lang="es">Dinamarca</title>
+<title lang="it">Danimarca</title>
+<title lang="ru">Дания</title>
+<title lang="po">Dinamarca</title>
+<title lang="zh-CN">丹麦</title>
+<title lang="zh-tw">丹麥</title>
+<title lang="ko">덴마크</title>
+<title lang="nl">Denemarken</title>
+<title lang="pl">Dania</title>
+<title lang="ar">الدنمارك</title>
+<scloud>1</scloud>
+</item>
+<item>
+<code>DE</code>
+<title lang="ja">ドイツ</title>
+<title>Germany</title>
+<title lang="fr">Allemagne</title>
+<title lang="de">Deutschland</title>
+<title lang="es">Alemania</title>
+<title lang="it">Germania</title>
+<title lang="ru">Германия</title>
+<title lang="po">Alemanha</title>
+<title lang="zh-CN">德国</title>
+<title lang="zh-tw">德國</title>
+<title lang="ko">독일</title>
+<title lang="nl">Duitsland</title>
+<title lang="pl">Niemcy</title>
+<title lang="ar">ألمانيا</title>
+<scloud>1</scloud>
+</item>
+<item>
+<code>DO</code>
+<title lang="ja">ドミニカ共和国</title>
+<title>Dominica</title>
+<title lang="fr">République dominicaine</title>
+<title lang="de">Dominica</title>
+<title lang="es">República Dominicana</title>
+<title lang="it">Dominica</title>
+<title lang="ru">Доминиканская Республика</title>
+<title lang="po">Dominica</title>
+<title lang="zh-CN">多米尼加</title>
+<title lang="zh-tw">多米尼克</title>
+<title lang="ko">도미니카</title>
+<title lang="nl">Dominica</title>
+<title lang="pl">Dominika</title>
+<title lang="ar">دومينيكا</title>
+<scloud>0</scloud>
+</item>
+<item>
+<code>TT</code>
+<title lang="ja">トリニダード・トバゴ</title>
+<title>Trinidad and Tobago</title>
+<title lang="fr">Trinité-et-Tobago</title>
+<title lang="de">Trinidad und Tobago</title>
+<title lang="es">Trinidad y Tobago</title>
+<title lang="it">Trinidad e Tobago</title>
+<title lang="ru">Тринидад и Тобаго</title>
+<title lang="po">Trinidad e Tobago</title>
+<title lang="zh-CN">特立尼达和多巴哥</title>
+<title lang="zh-tw">千里達及托巴哥</title>
+<title lang="ko">트리니다드 토바고</title>
+<title lang="nl">Trinidad en Tobago</title>
+<title lang="pl">Trynidad i Tobago</title>
+<title lang="ar">ترينيداد وتوباغو</title>
+<scloud>0</scloud>
+</item>
+<item>
+<code>TR</code>
+<title lang="ja">トルコ</title>
+<title>Turkey</title>
+<title lang="fr">Turquie</title>
+<title lang="de">Türkei</title>
+<title lang="es">Turquía</title>
+<title lang="it">Turchia</title>
+<title lang="ru">Турция</title>
+<title lang="po">Turquia</title>
+<title lang="zh-CN">土耳其</title>
+<title lang="zh-tw">土耳其</title>
+<title lang="ko">터키</title>
+<title lang="nl">Turkije</title>
+<title lang="pl">Turcja</title>
+<title lang="ar">تركيا</title>
+<scloud>0</scloud>
+</item>
+<item>
+<code>NZ</code>
+<title lang="ja">ニュージーランド</title>
+<title>New Zealand</title>
+<title lang="fr">Nouvelle-Zélande</title>
+<title lang="de">Neuseeland</title>
+<title lang="es">Nueva Zelanda</title>
+<title lang="it">Nuova Zelanda</title>
+<title lang="ru">Новая Зеландия</title>
+<title lang="po">Nova Zelândia</title>
+<title lang="zh-CN">新西兰</title>
+<title lang="zh-tw">紐西蘭</title>
+<title lang="ko">뉴질랜드</title>
+<title lang="nl">Nieuw-Zeeland</title>
+<title lang="pl">Nowa Zelandia</title>
+<title lang="ar">نيوزيلاند</title>
+<scloud>1</scloud>
+</item>
+<item>
+<code>NO</code>
+<title lang="ja">ノルウェー</title>
+<title>Norway</title>
+<title lang="fr">Norvège</title>
+<title lang="de">Norwegen</title>
+<title lang="es">Noruega</title>
+<title lang="it">Norvegia</title>
+<title lang="ru">Норвегия</title>
+<title lang="po">Noruega</title>
+<title lang="zh-CN">挪威</title>
+<title lang="zh-tw">挪威</title>
+<title lang="ko">노르웨이</title>
+<title lang="nl">Noorwegen</title>
+<title lang="pl">Norwegia</title>
+<title lang="ar">النرويج</title>
+<scloud>1</scloud>
+</item>
+<item>
+<code>BH</code>
+<title lang="ja">バーレーン</title>
+<title>Bahrain</title>
+<title lang="fr">Bahreïn</title>
+<title lang="de">Bahrain</title>
+<title lang="es">Baréin</title>
+<title lang="it">Bahrein</title>
+<title lang="ru">Бахрейн</title>
+<title lang="po">Bahrein</title>
+<title lang="zh-CN">巴林</title>
+<title lang="zh-tw">巴林</title>
+<title lang="ko">바레인</title>
+<title lang="nl">Bahrein</title>
+<title lang="pl">Bahrajn</title>
+<title lang="ar">البحرين</title>
+<scloud>0</scloud>
+</item>
+<item>
+<code>PK</code>
+<title lang="ja">パキスタン</title>
+<title>Pakistan</title>
+<title lang="fr">Pakistan</title>
+<title lang="de">Pakistan</title>
+<title lang="es">Pakistán</title>
+<title lang="it">Pakistan</title>
+<title lang="ru">Пакистан</title>
+<title lang="po">Paquistão</title>
+<title lang="zh-CN">巴基斯坦</title>
+<title lang="zh-tw">巴基斯坦</title>
+<title lang="ko">파키스탄</title>
+<title lang="nl">Pakistan</title>
+<title lang="pl">Pakistan</title>
+<title lang="ar">باكستان</title>
+<scloud>0</scloud>
+</item>
+<item>
+<code>PA</code>
+<title lang="ja">パナマ</title>
+<title>Panama</title>
+<title lang="fr">Panama</title>
+<title lang="de">Panama</title>
+<title lang="es">Panamá</title>
+<title lang="it">Panamá</title>
+<title lang="ru">Панама</title>
+<title lang="po">Panamá</title>
+<title lang="zh-CN">巴拿马</title>
+<title lang="zh-tw">巴拿馬</title>
+<title lang="ko">파나마</title>
+<title lang="nl">Panama</title>
+<title lang="pl">Panama</title>
+<title lang="ar">بنما</title>
+<scloud>0</scloud>
+</item>
+<item>
+<code>BS</code>
+<title lang="ja">バハマ</title>
+<title>Bahamas</title>
+<title lang="fr">Bahamas</title>
+<title lang="de">Bahamas</title>
+<title lang="es">Bahamas</title>
+<title lang="it">Bahamas</title>
+<title lang="ru">Багамы</title>
+<title lang="po">Bahamas</title>
+<title lang="zh-CN">巴哈马</title>
+<title lang="zh-tw">巴哈馬</title>
+<title lang="ko">바하마</title>
+<title lang="nl">Bahama's</title>
+<title lang="pl">Bahamy</title>
+<title lang="ar">جزر البهاما</title>
+<scloud>0</scloud>
+</item>
+<item>
+<code>PY</code>
+<title lang="ja">パラグアイ</title>
+<title>Paraguay</title>
+<title lang="fr">Paraguay</title>
+<title lang="de">Paraguay</title>
+<title lang="es">Paraguay</title>
+<title lang="it">Paraguay</title>
+<title lang="ru">Парагвай</title>
+<title lang="po">Paraguai</title>
+<title lang="zh-CN">巴拉圭</title>
+<title lang="zh-tw">巴拉圭</title>
+<title lang="ko">파라과이</title>
+<title lang="nl">Paraguay</title>
+<title lang="pl">Paragwaj</title>
+<title lang="ar">باراغواي</title>
+<scloud>0</scloud>
+</item>
+<item>
+<code>PS</code>
+<title lang="ja">パレスチナ</title>
+<title>Palestine</title>
+<title lang="fr">Palestine</title>
+<title lang="de">Palästina</title>
+<title lang="es">Palestina</title>
+<title lang="it">Palestina</title>
+<title lang="ru">Палестина</title>
+<title lang="po">Palestina</title>
+<title lang="zh-CN">巴勒斯坦</title>
+<title lang="zh-tw">巴勒斯坦</title>
+<title lang="ko">팔레스타인</title>
+<title lang="nl">Palestina</title>
+<title lang="pl">Palestyna</title>
+<title lang="ar">فلسطين</title>
+<scloud>0</scloud>
+</item>
+<item>
+<code>HU</code>
+<title lang="ja">ハンガリー</title>
+<title>Hungary</title>
+<title lang="fr">Hongrie</title>
+<title lang="de">Ungarn</title>
+<title lang="es">Hungría</title>
+<title lang="it">Ungheria</title>
+<title lang="ru">Венгрия</title>
+<title lang="po">Hungria</title>
+<title lang="zh-CN">匈牙利</title>
+<title lang="zh-tw">匈牙利</title>
+<title lang="ko">헝가리</title>
+<title lang="nl">Hongarije</title>
+<title lang="pl">Węgry</title>
+<title lang="ar">المجر</title>
+<scloud>1</scloud>
+</item>
+<item>
+<code>PH</code>
+<title lang="ja">フィリピン</title>
+<title>Philippines</title>
+<title lang="fr">Philippines</title>
+<title lang="de">Philippinen</title>
+<title lang="es">Filipinas</title>
+<title lang="it">Filippine</title>
+<title lang="ru">Филиппины</title>
+<title lang="po">Filipinas</title>
+<title lang="zh-CN">菲律宾</title>
+<title lang="zh-tw">菲律賓</title>
+<title lang="ko">필리핀</title>
+<title lang="nl">Filipijnen</title>
+<title lang="pl">Filipiny</title>
+<title lang="ar">الفيليبين</title>
+<scloud>1</scloud>
+</item>
+<item>
+<code>FI</code>
+<title lang="ja">フィンランド</title>
+<title>Finland</title>
+<title lang="fr">Finlande</title>
+<title lang="de">Finnland</title>
+<title lang="es">Finlandia</title>
+<title lang="it">Finlandia</title>
+<title lang="ru">Финляндия</title>
+<title lang="po">Finlândia</title>
+<title lang="zh-CN">芬兰</title>
+<title lang="zh-tw">芬蘭</title>
+<title lang="ko">핀란드</title>
+<title lang="nl">Finland</title>
+<title lang="pl">Finlandia</title>
+<title lang="ar">فنلندا</title>
+<scloud>1</scloud>
+</item>
+<item>
+<code>PR</code>
+<title lang="ja">プエルトリコ</title>
+<title>Puerto Rico</title>
+<title lang="fr">Porto Rico</title>
+<title lang="de">Puerto Rico</title>
+<title lang="es">Puerto Rico</title>
+<title lang="it">Portorico</title>
+<title lang="ru">Пуэрто-Рико</title>
+<title lang="po">Porto Rico</title>
+<title lang="zh-CN">波多黎各</title>
+<title lang="zh-tw">波多黎各</title>
+<title lang="ko">푸에르토리코</title>
+<title lang="nl">Puerto Rico</title>
+<title lang="pl">Portoryko</title>
+<title lang="ar">بورتوريكو</title>
+<scloud>0</scloud>
+</item>
+<item>
+<code>BR</code>
+<title lang="ja">ブラジル</title>
+<title>Brazil</title>
+<title lang="fr">Brésil</title>
+<title lang="de">Brasilien</title>
+<title lang="es">Brasil</title>
+<title lang="it">Brasile</title>
+<title lang="ru">Бразилия</title>
+<title lang="po">Brasil</title>
+<title lang="zh-CN">巴西</title>
+<title lang="zh-tw">巴西</title>
+<title lang="ko">브라질</title>
+<title lang="nl">Brazilië</title>
+<title lang="pl">Brazylia</title>
+<title lang="ar">البرازيل</title>
+<scloud>0</scloud>
+</item>
+<item>
+<code>FR</code>
+<title lang="ja">フランス</title>
+<title>France</title>
+<title lang="fr">France</title>
+<title lang="de">Frankreich</title>
+<title lang="es">Francia</title>
+<title lang="it">Francia</title>
+<title lang="ru">Франция</title>
+<title lang="po">França</title>
+<title lang="zh-CN">法国</title>
+<title lang="zh-tw">法國</title>
+<title lang="ko">프랑스</title>
+<title lang="nl">Frankrijk</title>
+<title lang="pl">Francja</title>
+<title lang="ar">فرنسا</title>
+<scloud>1</scloud>
+</item>
+<item>
+<code>BG</code>
+<title lang="ja">ブルガリア</title>
+<title>Bulgaria</title>
+<title lang="fr">Bulgarie</title>
+<title lang="de">Bulgarien</title>
+<title lang="es">Bulgaria</title>
+<title lang="it">Bulgaria</title>
+<title lang="ru">Болгария</title>
+<title lang="po">Bulgária</title>
+<title lang="zh-CN">保加利亚</title>
+<title lang="zh-tw">保加利亞</title>
+<title lang="ko">불가리아</title>
+<title lang="nl">Bulgarije</title>
+<title lang="pl">Bułgaria</title>
+<title lang="ar">بلغاريا</title>
+<scloud>1</scloud>
+</item>
+<item>
+<code>VN</code>
+<title lang="ja">ベトナム</title>
+<title>Vietnam</title>
+<title lang="fr">Vietnam</title>
+<title lang="de">Vietnam</title>
+<title lang="es">Vietnam</title>
+<title lang="it">Vietnam</title>
+<title lang="ru">Вьетнам</title>
+<title lang="po">Vietnã</title>
+<title lang="zh-CN">越南</title>
+<title lang="zh-tw">越南</title>
+<title lang="ko">베트남</title>
+<title lang="nl">Vietnam</title>
+<title lang="pl">Wietnam</title>
+<title lang="ar">فيتنام</title>
+<scloud>0</scloud>
+</item>
+<item>
+<code>VE</code>
+<title lang="ja">ベネズエラ</title>
+<title>Venezuela</title>
+<title lang="fr">Venezuela</title>
+<title lang="de">Venezuela</title>
+<title lang="es">Venezuela</title>
+<title lang="it">Venezuela</title>
+<title lang="ru">Венесуэла</title>
+<title lang="po">Venezuela</title>
+<title lang="zh-CN">委内瑞拉</title>
+<title lang="zh-tw">委內瑞拉</title>
+<title lang="ko">베네수엘라</title>
+<title lang="nl">Venezuela</title>
+<title lang="pl">Wenezuela</title>
+<title lang="ar">فنزويلا</title>
+<scloud>0</scloud>
+</item>
+<item>
+<code>BY</code>
+<title lang="ja">ベラルーシ</title>
+<title>Belarus</title>
+<title lang="fr">Biélorussie</title>
+<title lang="de">Belarus</title>
+<title lang="es">Bielorrusia</title>
+<title lang="it">Bielorussia</title>
+<title lang="ru">Беларусь</title>
+<title lang="po">Bielorrússia</title>
+<title lang="zh-CN">白俄罗斯</title>
+<title lang="zh-tw">白俄羅斯</title>
+<title lang="ko">벨라루스</title>
+<title lang="nl">Wit-Rusland</title>
+<title lang="pl">Białoruś</title>
+<title lang="ar">بيلاروسيا</title>
+<scloud>0</scloud>
+</item>
+<item>
+<code>PE</code>
+<title lang="ja">ペルー</title>
+<title>Peru</title>
+<title lang="fr">Pérou</title>
+<title lang="de">Peru</title>
+<title lang="es">Perú</title>
+<title lang="it">Perù</title>
+<title lang="ru">Перу</title>
+<title lang="po">Peru</title>
+<title lang="zh-CN">秘鲁</title>
+<title lang="zh-tw">秘魯</title>
+<title lang="ko">페루</title>
+<title lang="nl">Peru</title>
+<title lang="pl">Peru</title>
+<title lang="ar">بيرو</title>
+<scloud>0</scloud>
+</item>
+<item>
+<code>BE</code>
+<title lang="ja">ベルギー</title>
+<title>Belgium</title>
+<title lang="fr">Belgique</title>
+<title lang="de">Belgien</title>
+<title lang="es">Bélgica</title>
+<title lang="it">Belgio</title>
+<title lang="ru">Бельгия</title>
+<title lang="po">Bélgica</title>
+<title lang="zh-CN">比利时</title>
+<title lang="zh-tw">比利時</title>
+<title lang="ko">벨기에</title>
+<title lang="nl">België</title>
+<title lang="pl">Belgia</title>
+<title lang="ar">بلجيكا</title>
+<scloud>1</scloud>
+</item>
+<item>
+<code>PL</code>
+<title lang="ja">ポーランド</title>
+<title>Poland</title>
+<title lang="fr">Pologne</title>
+<title lang="de">Polen</title>
+<title lang="es">Polonia</title>
+<title lang="it">Polonia</title>
+<title lang="ru">Польша</title>
+<title lang="po">Polônia</title>
+<title lang="zh-CN">波兰</title>
+<title lang="zh-tw">波蘭</title>
+<title lang="ko">폴란드</title>
+<title lang="nl">Polen</title>
+<title lang="pl">Polska</title>
+<title lang="ar">بولندا</title>
+<scloud>1</scloud>
+</item>
+<item>
+<code>BA</code>
+<title lang="ja">ボスニア・ヘルツェゴビナ</title>
+<title>Bosnia and Herzegovina</title>
+<title lang="fr">Bosnie-Herzégovine</title>
+<title lang="de">Bosnien und Herzegowina</title>
+<title lang="es">Bosnia y Herzegovina</title>
+<title lang="it">Bosnia ed Erzegovina</title>
+<title lang="ru">Босния и Герцеговина</title>
+<title lang="po">Bósnia e Herzegovina</title>
+<title lang="zh-CN">波斯尼亚和黑塞哥维那</title>
+<title lang="zh-tw">波士尼亞與赫塞哥維納</title>
+<title lang="ko">보스니아 헤르체고비나</title>
+<title lang="nl">Bosnië en Herzegovina</title>
+<title lang="pl">Bośnia i Hercegowina</title>
+<title lang="ar">البوسنة والهرسك</title>
+<scloud>0</scloud>
+</item>
+<item>
+<code>BO</code>
+<title lang="ja">ボリビア</title>
+<title>Bolivia</title>
+<title lang="fr">Bolivie</title>
+<title lang="de">Bolivien</title>
+<title lang="es">Bolivia</title>
+<title lang="it">Bolivia</title>
+<title lang="ru">Боливия</title>
+<title lang="po">Bolívia</title>
+<title lang="zh-CN">玻利维亚</title>
+<title lang="zh-tw">玻利維亞</title>
+<title lang="ko">볼리비아</title>
+<title lang="nl">Bolivia</title>
+<title lang="pl">Boliwia</title>
+<title lang="ar">بوليفيا</title>
+<scloud>0</scloud>
+</item>
+<item>
+<code>PT</code>
+<title lang="ja">ポルトガル</title>
+<title>Portugal</title>
+<title lang="fr">Portugal</title>
+<title lang="de">Portugal</title>
+<title lang="es">Portugal</title>
+<title lang="it">Portogallo</title>
+<title lang="ru">Португалия</title>
+<title lang="po">Portugal</title>
+<title lang="zh-CN">葡萄牙</title>
+<title lang="zh-tw">葡萄牙</title>
+<title lang="ko">포르투갈</title>
+<title lang="nl">Portugal</title>
+<title lang="pl">Portugalia</title>
+<title lang="ar">البرتغال</title>
+<scloud>1</scloud>
+</item>
+<item>
+<code>HN</code>
+<title lang="ja">ホンジュラス</title>
+<title>Honduras</title>
+<title lang="fr">Honduras</title>
+<title lang="de">Honduras</title>
+<title lang="es">Honduras</title>
+<title lang="it">Honduras</title>
+<title lang="ru">Гондурас</title>
+<title lang="po">Honduras</title>
+<title lang="zh-CN">洪都拉斯</title>
+<title lang="zh-tw">宏都拉斯</title>
+<title lang="ko">온두라스</title>
+<title lang="nl">Honduras</title>
+<title lang="pl">Honduras</title>
+<title lang="ar">هندوراس</title>
+<scloud>0</scloud>
+</item>
+<item>
+<code>MO</code>
+<title lang="ja">マカオ</title>
+<title>Macau</title>
+<title lang="fr">Macao</title>
+<title lang="de">Macau</title>
+<title lang="es">Macao</title>
+<title lang="it">Macao</title>
+<title lang="ru">Макао</title>
+<title lang="po">Macau</title>
+<title lang="zh-CN">澳门</title>
+<title lang="zh-tw">澳門</title>
+<title lang="ko">마카오</title>
+<title lang="nl">Macau</title>
+<title lang="pl">Makau</title>
+<title lang="ar">ماكاو</title>
+<scloud>0</scloud>
+</item>
+<item>
+<code>MT</code>
+<title lang="ja">マルタ</title>
+<title>Malta</title>
+<title lang="fr">Malte</title>
+<title lang="de">Malta</title>
+<title lang="es">Malta</title>
+<title lang="it">Malta</title>
+<title lang="ru">Мальта</title>
+<title lang="po">Malta</title>
+<title lang="zh-CN">马耳他</title>
+<title lang="zh-tw">馬爾他</title>
+<title lang="ko">몰타</title>
+<title lang="nl">Malta</title>
+<title lang="pl">Malta</title>
+<title lang="ar">مالطا</title>
+<scloud>1</scloud>
+</item>
+<item>
+<code>MY</code>
+<title lang="ja">マレーシア</title>
+<title>Malaysia</title>
+<title lang="fr">Malaisie</title>
+<title lang="de">Malaysia</title>
+<title lang="es">Malasia</title>
+<title lang="it">Malaysia</title>
+<title lang="ru">Малайзия</title>
+<title lang="po">Malásia</title>
+<title lang="zh-CN">马来西亚</title>
+<title lang="zh-tw">馬來西亞</title>
+<title lang="ko">말레이시아</title>
+<title lang="nl">Maleisië</title>
+<title lang="pl">Malezja</title>
+<title lang="ar">ماليزيا</title>
+<scloud>1</scloud>
+</item>
+<item>
+<code>MX</code>
+<title lang="ja">メキシコ</title>
+<title>Mexico</title>
+<title lang="fr">Mexique</title>
+<title lang="de">Mexiko</title>
+<title lang="es">México</title>
+<title lang="it">Messico</title>
+<title lang="ru">Мексика</title>
+<title lang="po">México</title>
+<title lang="zh-CN">墨西哥</title>
+<title lang="zh-tw">墨西哥</title>
+<title lang="ko">멕시코</title>
+<title lang="nl">Mexico</title>
+<title lang="pl">Meksyk</title>
+<title lang="ar">المكسيك</title>
+<scloud>0</scloud>
+</item>
+<item>
+<code>ME</code>
+<title lang="ja">モンテネグロ</title>
+<title>Montenegro</title>
+<title lang="fr">Monténégro</title>
+<title lang="de">Montenegro</title>
+<title lang="es">Montenegro</title>
+<title lang="it">Montenegro</title>
+<title lang="ru">Черногория</title>
+<title lang="po">Montenegro</title>
+<title lang="zh-CN">黑山</title>
+<title lang="zh-tw">蒙特內哥羅</title>
+<title lang="ko">몬테네그로</title>
+<title lang="nl">Montenegro</title>
+<title lang="pl">Czarnogóra</title>
+<title lang="ar">مونتينيغرو (الجبل الأسود)</title>
+<scloud>0</scloud>
+</item>
+<item>
+<code>JO</code>
+<title lang="ja">ヨルダン</title>
+<title>Jordan</title>
+<title lang="fr">Jordanie</title>
+<title lang="de">Jordanien</title>
+<title lang="es">Jordania</title>
+<title lang="it">Giordania</title>
+<title lang="ru">Иордания</title>
+<title lang="po">Jordânia</title>
+<title lang="zh-CN">约旦</title>
+<title lang="zh-tw">約旦</title>
+<title lang="ko">요르단</title>
+<title lang="nl">Jordanië</title>
+<title lang="pl">Jordania</title>
+<title lang="ar">الأردن</title>
+<scloud>0</scloud>
+</item>
+<item>
+<code>LV</code>
+<title lang="ja">ラトビア</title>
+<title>Latvia</title>
+<title lang="fr">Lettonie</title>
+<title lang="de">Lettland</title>
+<title lang="es">Letonia</title>
+<title lang="it">Lettonia</title>
+<title lang="ru">Латвия</title>
+<title lang="po">Letônia</title>
+<title lang="zh-CN">拉脱维亚</title>
+<title lang="zh-tw">拉脫維亞</title>
+<title lang="ko">라트비아</title>
+<title lang="nl">Letland</title>
+<title lang="pl">Łotwa</title>
+<title lang="ar">لاتفيا</title>
+<scloud>1</scloud>
+</item>
+<item>
+<code>LT</code>
+<title lang="ja">リトアニア</title>
+<title>Lithuania</title>
+<title lang="fr">Lituanie</title>
+<title lang="de">Litauen</title>
+<title lang="es">Lituania</title>
+<title lang="it">Lituania</title>
+<title lang="ru">Литва</title>
+<title lang="po">Lituânia</title>
+<title lang="zh-CN">立陶宛</title>
+<title lang="zh-tw">立陶宛</title>
+<title lang="ko">리투아니아</title>
+<title lang="nl">Litouwen</title>
+<title lang="pl">Litwa</title>
+<title lang="ar">ليتوانيا</title>
+<scloud>1</scloud>
+</item>
+<item>
+<code>LI</code>
+<title lang="ja">リヒテンシュタイン</title>
+<title>Liechtenstein</title>
+<title lang="fr">Liechtenstein</title>
+<title lang="de">Liechtenstein</title>
+<title lang="es">Liechtenstein</title>
+<title lang="it">Liechtenstein</title>
+<title lang="ru">Лихтенштейн</title>
+<title lang="po">Liechtenstein</title>
+<title lang="zh-CN">列支敦士登</title>
+<title lang="zh-tw">列支敦斯登</title>
+<title lang="ko">리히텐슈타인</title>
+<title lang="nl">Liechtenstein</title>
+<title lang="pl">Liechtenstein</title>
+<title lang="ar">ليختنشتاين</title>
+<scloud>1</scloud>
+</item>
+<item>
+<code>RO</code>
+<title lang="ja">ルーマニア</title>
+<title>Romania</title>
+<title lang="fr">Roumanie</title>
+<title lang="de">Rumänien</title>
+<title lang="es">Rumanía</title>
+<title lang="it">Romania</title>
+<title lang="ru">Румыния</title>
+<title lang="po">Romênia</title>
+<title lang="zh-CN">罗马尼亚</title>
+<title lang="zh-tw">羅馬尼亞</title>
+<title lang="ko">루마니아</title>
+<title lang="nl">Roemenië</title>
+<title lang="pl">Rumunia</title>
+<title lang="ar">رومانيا</title>
+<scloud>1</scloud>
+</item>
+<item>
+<code>LU</code>
+<title lang="ja">ルクセンブルク</title>
+<title>Luxembourg</title>
+<title lang="fr">Luxembourg</title>
+<title lang="de">Luxemburg</title>
+<title lang="es">Luxemburgo</title>
+<title lang="it">Lussemburgo</title>
+<title lang="ru">Люксембург</title>
+<title lang="po">Luxemburgo</title>
+<title lang="zh-CN">卢森堡</title>
+<title lang="zh-tw">盧森堡</title>
+<title lang="ko">룩셈부르크</title>
+<title lang="nl">Luxemburg</title>
+<title lang="pl">Luksemburg</title>
+<title lang="ar">لوكسمبورغ</title>
+<scloud>1</scloud>
+</item>
+<item>
+<code>LB</code>
+<title lang="ja">レバノン</title>
+<title>Lebanon</title>
+<title lang="fr">Liban</title>
+<title lang="de">Libanon</title>
+<title lang="es">Líbano</title>
+<title lang="it">Libano</title>
+<title lang="ru">Ливан</title>
+<title lang="po">Líbano</title>
+<title lang="zh-CN">黎巴嫩</title>
+<title lang="zh-tw">黎巴嫩</title>
+<title lang="ko">레바논</title>
+<title lang="nl">Libanon</title>
+<title lang="pl">Liban</title>
+<title lang="ar">لبنان</title>
+<scloud>0</scloud>
+</item>
+<item>
+<code>RU</code>
+<title lang="ja">ロシア</title>
+<title>Russia</title>
+<title lang="fr">Russie</title>
+<title lang="de">Russland</title>
+<title lang="es">Rusia</title>
+<title lang="it">Russia</title>
+<title lang="ru">Россия</title>
+<title lang="po">Rússia</title>
+<title lang="zh-CN">俄罗斯</title>
+<title lang="zh-tw">俄羅斯</title>
+<title lang="ko">러시아</title>
+<title lang="nl">Rusland</title>
+<title lang="pl">Rosja</title>
+<title lang="ar">روسيا</title>
+<scloud>0</scloud>
+</item>
+<item>
+<code>HK</code>
+<title lang="ja">香港</title>
+<title>Hong Kong</title>
+<title lang="fr">Hong Kong</title>
+<title lang="de">Hong Kong</title>
+<title lang="es">Hong Kong</title>
+<title lang="it">Hong Kong</title>
+<title lang="ru">Гонконг</title>
+<title lang="po">Hong Kong</title>
+<title lang="zh-CN">香港</title>
+<title lang="zh-tw">香港</title>
+<title lang="ko">홍콩</title>
+<title lang="nl">Hongkong</title>
+<title lang="pl">Hongkong</title>
+<title lang="ar">هونغ كونغ</title>
+<scloud>0</scloud>
+</item>
+<item>
+<code>KR</code>
+<title lang="ja">大韓民国</title>
+<title>Korea</title>
+<title lang="fr">Corée du Sud</title>
+<title lang="de">Südkorea</title>
+<title lang="es">Corea del Sur</title>
+<title lang="it">Corea del Sud</title>
+<title lang="ru">Южная Корея</title>
+<title lang="po">Coreia do Sul</title>
+<title lang="zh-CN">韩国</title>
+<title lang="zh-tw">南韓</title>
+<title lang="ko">대한민국</title>
+<title lang="nl">Korea</title>
+<title lang="pl">Korea</title>
+<title lang="ar">كوريا</title>
+<scloud>0</scloud>
+</item>
+<item>
+<code>TW</code>
+<title lang="ja">台湾</title>
+<title>Taiwan</title>
+<title lang="fr">Taïwan</title>
+<title lang="de">Taiwan</title>
+<title lang="es">Taiwán</title>
+<title lang="it">Taiwan</title>
+<title lang="ru">Тайвань</title>
+<title lang="po">Taiwan</title>
+<title lang="zh-CN">台湾</title>
+<title lang="zh-tw">台灣</title>
+<title lang="ko">대만</title>
+<title lang="nl">Taiwan</title>
+<title lang="pl">Tajwan</title>
+<title lang="ar">تايوان</title>
+<scloud>0</scloud>
+</item>
+<item>
+<code>CN</code>
+<title lang="ja">中国</title>
+<title>China</title>
+<title lang="fr">Chine</title>
+<title lang="de">China</title>
+<title lang="es">China</title>
+<title lang="it">Cina</title>
+<title lang="ru">Китай</title>
+<title lang="po">China</title>
+<title lang="zh-CN">中国</title>
+<title lang="zh-tw">中國</title>
+<title lang="ko">중국</title>
+<title lang="nl">China</title>
+<title lang="pl">Chiny</title>
+<title lang="ar">الصين</title>
+<scloud>0</scloud>
+</item>
+<item>
+<code>ZA</code>
+<title lang="ja">南アフリカ</title>
+<title>South Africa</title>
+<title lang="fr">Afrique du Sud</title>
+<title lang="de">Südafrika</title>
+<title lang="es">Sudáfrica</title>
+<title lang="it">Sudafrica</title>
+<title lang="ru">Южная Африка</title>
+<title lang="po">África do Sul</title>
+<title lang="zh-CN">南非</title>
+<title lang="zh-tw">南非</title>
+<title lang="ko">남아프리카</title>
+<title lang="nl">Zuid-Afrika</title>
+<title lang="pl">Republika Południowej Afryki</title>
+<title lang="ar">جنوب أفريقيا</title>
+<scloud>0</scloud>
+</item>
+<item>
+<code>JP</code>
+<title lang="ja">日本</title>
+<title>Japan</title>
+<title lang="fr">Japon</title>
+<title lang="de">Japan</title>
+<title lang="es">Japón</title>
+<title lang="it">Giappone</title>
+<title lang="ru">Япония</title>
+<title lang="po">Japão</title>
+<title lang="zh-CN">日本</title>
+<title lang="zh-tw">日本</title>
+<title lang="ko">일본</title>
+<title lang="nl">Japan</title>
+<title lang="pl">Japonia</title>
+<title lang="ar">اليابان</title>
+<scloud>1</scloud>
+</item>
+<item>
+<code>AA</code>
+<title lang="ja">その他の国/地域</title>
+<title>Other locations</title>
+<title lang="fr">Autres emplacements</title>
+<title lang="de">Andere Orte</title>
+<title lang="es">Otras ubicaciones</title>
+<title lang="it">Altre posizioni</title>
+<title lang="ru">Другие местоположенияy</title>
+<title lang="po">Outras localizações</title>
+<title lang="zh-CN">其他位置</title>
+<title lang="zh-tw">其他位置</title>
+<title lang="ko">그 이외의 지역</title>
+<title lang="nl">Overige locaties</title>
+<title lang="pl">Inne lokalizacje</title>
+<title lang="ar">المواقع الأخرى</title>
+<scloud>0</scloud>
+</item>
+</scanSnap>

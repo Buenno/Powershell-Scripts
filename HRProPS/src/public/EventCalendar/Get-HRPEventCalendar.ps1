@@ -1,14 +1,30 @@
 Function Get-HRPEventCalendar {
   <#
-    .SYNOPSIS
-      Returns a list of Event Calendar items for the specified employee
-    .DESCRIPTION
-      Returns a list of Event Calendar items for the specified employee.
-    .EXAMPLE
-      Get-HRPEventCalendar -ID 63635 
-    .LINK
-      https://api.hrapi.co.uk/swagger/ui/index#!/EventCalendar/EventCalendar_Get
-  #>
+.SYNOPSIS
+Returns a list of Event Calendar items for the specified employee.
+
+.DESCRIPTION
+Returns a list of Event Calendar items for the specified employee. Providing the Year parameter will return all items for that year, `
+and providing the DateFrom and DateTo parameters will return all items within that date range.
+
+.PARAMETER ID
+The ID of the employee for whom to retrieve event calendar items.
+
+.PARAMETER Year
+The year for which to retrieve event calendar items.
+
+.PARAMETER DateFrom
+The start date for the date range within which to retrieve event calendar items.
+
+.PARAMETER DateTo
+The end date for the date range within which to retrieve event calendar items.
+
+.EXAMPLE
+Get-HRPEventCalendar -ID 12345 
+
+.LINK
+https://api.hrapi.co.uk/swagger/ui/index#!/EventCalendar/EventCalendar_Get
+#>
 
     [CmdletBinding(DefaultParameterSetName = 'Year')]
     Param(

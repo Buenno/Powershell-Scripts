@@ -1,22 +1,34 @@
 Function Get-HRPExpense {
-  <#
-    .SYNOPSIS
-      Returns a list of Expense objects.
-    .DESCRIPTION
-      Returns a list of Expense objects. Providing the Expense ID will return a list, 
-      and providing the Employee ID and Submit ID will return that specific object. 
+<#
+.SYNOPSIS
+Returns a list of Expense objects.
 
-    .EXAMPLE
-      Get-HRPExpense -ExpenseID 73534534
+.DESCRIPTION
+Returns a list of Expense objects. Providing the Expense ID will return a list, `
+and providing the Employee ID and Submit ID will return that specific object. 
 
-      This returns an Expense object which matches the given Expense ID.
-    .EXAMPLE
-      Get-HRPExpense -EmployeeID 951356 -Submit 3466342
+.PARAMETER ExpenseID
+The ID of the expense to retrieve.
 
-      This returns a list of Expense objects for the specified Employee ID and Submit ID.
-    .LINK
-      https://api.hrapi.co.uk/swagger/ui/index#!/Expense/Expense_Get
-  #>
+.PARAMETER EmployeeID
+The ID of the employee for whom to retrieve expenses.
+
+.PARAMETER SubmitID
+The ID of the submit for which to retrieve expenses.
+
+.EXAMPLE
+Get-HRPExpense -ExpenseID 12345
+
+This returns an expense object which matches the given ExpenseID.
+
+.EXAMPLE
+Get-HRPExpense -EmployeeID 12345 -Submit 67890
+
+This returns a list of expense objects for the specified EmployeeID and Submit ID.
+
+.LINK
+https://api.hrapi.co.uk/swagger/ui/index#!/Expense/Expense_Get
+#>
     [CmdletBinding(DefaultParameterSetName = 'ExpenseID')]
     Param(
       [Parameter(Mandatory = $true, ParameterSetName = 'ExpenseID', ValueFromPipelineByPropertyName = $true)]
